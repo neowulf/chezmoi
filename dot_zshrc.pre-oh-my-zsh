@@ -1,0 +1,5 @@
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/siva/.sdkman"
+[[ -s "/Users/siva/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/siva/.sdkman/bin/sdkman-init.sh"
+if [ -e /Users/siva/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/siva/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
